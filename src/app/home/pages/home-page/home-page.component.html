@@ -1,0 +1,13 @@
+<nz-layout>
+  <nz-header>
+    <ul nz-menu nzTheme="dark" nzMode="horizontal">
+      <li nz-menu-item [routerLink]="['/home']" routerLinkActive="active">Accueil</li>
+      <!-- <li nz-menu-item [routerLink]="['/skill-tech']" routerLinkActive="active">Competences Techniques</li> -->
+      <li nz-menu-item [routerLink]="['/skill-soft']" routerLinkActive="active">Competences Transverses</li>
+      <li nz-menu-item  [routerLink]="['/realization']" routerLinkActive="active">Réalisation</li>
+    </ul>
+  </nz-header>
+  <nz-content>
+      <router-outlet></router-outlet>
+  </nz-content>
+</nz-layout>
