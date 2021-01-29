@@ -1,0 +1,19 @@
+<nz-divider [nzText]="skill.mainTitle"></nz-divider>
+
+<h1>{{skill.mainTitle}}</h1>
+<br>
+
+<div *ngFor="let skillContent of skill.content">
+  <h2 *ngIf="skillContent.subTitle">{{skillContent.subTitle}}</h2>
+  {{getSubSkillContent(skillContent.subContent)}}
+</div>
+<br>
+
+<h2>Projet lié à cette competence :</h2>
+<div *ngFor="let linkedProject of skill.linkedProject">
+  <h3>
+    <a>{{linkedProject}}</a>
+  </h3>
+</div>
+
+<nz-divider></nz-divider>

@@ -1,0 +1,20 @@
+<h1 class="title">Mes Competences</h1>
+
+<div class="container">
+  <nz-card [routerLink]="['./skill-tech']" class="card" [nzCover]="coverTemplateSkillTech">
+    <nz-card-meta nzTitle="Mes Competences Techniques" ></nz-card-meta>
+  </nz-card>
+  <nz-card [routerLink]="['./skill-soft']" class="card" [nzCover]="coverTemplateSkillSoft">
+    <nz-card-meta nzTitle="Mes Competences Transversales"></nz-card-meta>
+  </nz-card>
+</div>
+
+<ng-template #coverTemplateSkillSoft>
+  <img src="assets/skill-soft.jpg">
+</ng-template>
+
+<ng-template #coverTemplateSkillTech>
+  <img src="assets/skill-tech.jpg">
+</ng-template>
+
+
