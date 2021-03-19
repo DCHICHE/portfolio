@@ -1,0 +1,20 @@
+{
+  "name": "Mes Compétences Transverses",
+  "skills": [
+    {
+      "name": "Esprit d'equipe",
+      "redirect": "esprit-d'equipe",
+      "image": "skill-soft/esprit-equipe.jpg"
+    },
+    {
+      "name": "TEST",
+      "redirect": "test",
+      "image": "skill-soft/test.png"
+    },
+    {
+      "name": "TEST",
+      "redirect": "test",
+      "image": "skill-soft/test.png"
+    }
+  ]
+}

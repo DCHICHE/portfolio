@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { SkillsComponent } from './pages/skills.component';
 import { SkillTechComponent } from './components/skill-tech/skill-tech.component';
 import { SkillSoftComponent } from './components/skill-soft/skill-soft.component';
+import { ListSkillComponent } from './components/list-skill/list-skill.component';
 
 
 const routes: Routes = [
@@ -15,10 +16,14 @@ const routes: Routes = [
       },
       {
         path: 'skill-tech',
-        component: SkillTechComponent
+        component: ListSkillComponent
       },
       {
         path: 'skill-soft',
+        component: ListSkillComponent
+      },
+      {
+        path: 'skill-soft/:skill',
         component: SkillSoftComponent
       },
     ],
