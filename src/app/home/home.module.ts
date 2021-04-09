@@ -5,8 +5,9 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { HomeRoutingModule } from './home-routing.module';
 import { NgZorroAntdModule } from '../modules/ng-zorro-antd.module';
 import { ProfileComponent } from '../profile/profile.component';
-import { RealizationComponent } from '../realization/realization.component';
 import { SkillsModule } from '../skills/skills.module';
+import { RealizationModule } from '../realization/realization.module';
+import { ArticleModule } from '../article/article.module';
 
 
 @NgModule({
@@ -15,11 +16,12 @@ import { SkillsModule } from '../skills/skills.module';
     NgZorroAntdModule,
     NzLayoutModule,
     HomeRoutingModule,
+    SkillsModule,
+    RealizationModule
   ],
   declarations: [
     HomePageComponent,
     ProfileComponent,
-    RealizationComponent,
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
