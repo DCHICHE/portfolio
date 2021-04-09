@@ -7,8 +7,6 @@ import { NgZorroAntdModule } from '../modules/ng-zorro-antd.module';
 import { ProfileComponent } from '../profile/profile.component';
 import { SkillsModule } from '../skills/skills.module';
 import { RealizationModule } from '../realization/realization.module';
-import { ArticleModule } from '../article/article.module';
-
 
 @NgModule({
   imports: [

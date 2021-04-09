@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ListArticleComponent } from '../article/components/list-article/list-article.component';
 import { RealizationComponent } from './components/realization/realization.component';
 
 
@@ -9,7 +10,11 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        component: RealizationComponent,
+        component: ListArticleComponent,
+      },
+      {
+        path: ':skill',
+        component: RealizationComponent
       },
     ],
   }

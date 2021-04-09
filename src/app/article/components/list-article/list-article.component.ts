@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { ListArticle } from '../../models/article';
 
 @Component({
@@ -12,10 +12,11 @@ export class ListArticleComponent implements OnInit {
 
   private articles: ListArticle[];
 
-  constructor(private activatedRoute: ActivatedRoute, private httpClient: HttpClient) { }
+  constructor(private activatedRoute: ActivatedRoute,private route: Router, private httpClient: HttpClient) { }
 
   async ngOnInit() {
-    const json = `assets/json/${this.activatedRoute.routeConfig.path}.json`
+    const urlSplit = this.route.url.split("/");
+    const json = `assets/json/${urlSplit[urlSplit.length - 1]}.json`
     this.articles = await this.httpClient.get<ListArticle[]>(json).toPromise();
   }
 

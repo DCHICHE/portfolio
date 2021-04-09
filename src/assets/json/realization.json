@@ -1,10 +1,10 @@
 {
-  "name": "Mes Compétences Techniques",
+  "name": "Mes Réalisations",
   "articles": [
     {
-      "name": "TEST",
-      "redirect": "TEST",
-      "image": "skill-soft/test.jpg"
+      "name": "Pick'N'Trip",
+      "redirect": "pick-n-trip",
+      "image": "realization/pick-n-trip.png"
     },
     {
       "name": "TEST",
