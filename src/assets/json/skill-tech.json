@@ -2,9 +2,9 @@
   "name": "Mes Compétences Techniques",
   "articles": [
     {
-      "name": "TEST",
-      "redirect": "TEST",
-      "image": "skill-soft/test.jpg"
+      "name": "Améliorer la qualité du code",
+      "redirect": "upgrade-code-quality",
+      "image": "skill-tech/upgrade-code-quality.jpg"
     },
     {
       "name": "TEST",
