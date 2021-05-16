@@ -1,5 +1,6 @@
 export interface Skill {
   mainTitle: string;
+  subTitle: string;
   content: SkillContent[];
 }
 

@@ -29,7 +29,7 @@ export class RealizationComponent implements OnInit {
   }
 
   public getSubSkillContent(content: string[]): string {
-    return content.join(" ");
+    return content.join("");
   }
 
   public ngOnDestroy(): void {

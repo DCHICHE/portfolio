@@ -1,5 +1,6 @@
 {
-  "mainTitle": " Pick’N’Trip - Besoin de vacances ? Just Pick’N’Trip !",
+  "mainTitle": "Pick’N’Trip",
+  "subTitle": " Pick’N’Trip - Besoin de vacances ? Just Pick’N’Trip !",
   "content": [
     {
       "subTitle": "Le Projet",
@@ -11,44 +12,49 @@
       ]
     },
     {
-      "subTitle": "Un atout pour le meilleur des mondes…",
+      "subTitle": "Les Objectifs et Contexte",
       "subContent": [
-        "Effectivement l’esprit d’équipe est à mon sens un",
-        "atout indispensables en entreprise. Qu’on soit dans le même projet",
-        "ou non l’entreprise doit avancer dans les projets qu’elle entreprend et",
-        "il arrive souvent qu’on se heurte à des murs qu’on a beaucoup de mal à franchir",
-        "voire impossible seul. C’est pour cela que quand un membre dans l’entreprise est en",
-        "difficultés il faut savoir l’aider que ce soit techniquement ou humainement.",
-        "Par exemple dans le cas où c’est un problème technique,",
-        "c’est important déjà pour sois de l’aider car on peut apprendre des problèmes d’autrui,",
-        "pour l’autre car il apprend de son problème et pour l’entreprise car cela fait avancer",
-        "le projet et que celui qui se faisait aider pourra devenir celui qui aide pour un même type de problème.",
-        "Il m’est déjà arrivé en entreprise d’être dans la peau de celui qui aidait et se faisait aider,",
-        "Dans les 2 cas c’était bénéfique pour moi et l’entreprise.",
-        "L’exemple que j’ai donné est arrivé sur un des projets en entreprise ou je venais d’arriver,",
-        "il faut savoir que dans cette entreprise utilisait une technologie particulière qui était propre à elle",
-        "et je suis tombé sur une erreur à la compilation de ladite technologie que je ne comprenais pas.",
-        "Quelqu’un qui maitrisait cette technologie m’a expliqué et montré comment la résoudre.",
-        "J’ai du coup apprit comment résoudre cette erreur et des mois après une autre personne que moi a eu les mêmes soucis",
-        "et je lui ai montré comment la résoudre.  Pendant cette résolution du problème nous sommes tombés tous les deux sur",
-        "un autre souci que je n’avais jamais vu auparavant mais j’avais acquis beaucoup d’expérience sur la technologie",
-        "puisque cela faisait plusieurs mois que je l’utilisais.",
-        "En cherchant un peu avec mon collègue je suis parvenu à la résoudre.",
-        "Ce qui au final m’a permis d’apprendre mais aussi de transmettre ma connaissance. "
+        "Ce projet devait être réaliser durant le cours de notre semestre 4 afin de nous apprendre à",
+        "concevoir une SPA (Single Page Application) et de nous perfectionnez sur nos compétences techniques.",
+        "On avait l’objectif de réaliser un gestionnaire de voyage facilement utilisable par n’importe quel public."
       ]
     },
     {
-      "subTitle": "…mais à utiliser avec prudence.",
+      "subTitle": "Enjeu et Risques",
       "subContent": [
-        "En effet bien que le fait d’esprit d’équipe soit important",
-        "il faut savoir ne pas avoir une utilisation abusive pour ",
-        "ne pas créer une dépendance d’aide et de rendre la personne non autonome dans son travail.",
-        "Il m’est arrivé que des personnes me demander énormément d’aide dans leur projet au point ",
-        "certaines fois ce n’était plus lui qui faisait le travail.",
-        "Ce qui n’est pas bien car la personne peut profiter de ça, d’en abuser et qu’au final elle n’apprenne rien.",
-        "Il ne faut en aucun cas que l’esprit d’équipe se transforme en abus de personne et que même",
-        "si la personne ne sait pas faire et qu’elle a déjà demandé énormément d’aide lui dire qu’elle",
-        "doit se débrouiller et d’apprendre d’elle-même vu qu’elle ne pourra pas se reposer sur les autres tout le temps."
+        "L’enjeu de ce projet était le passage au semestre supérieur.Il y avait 2 risques avec ce projet :\n",
+        "•  La communication avec les API externes non payantes qui allaient être le cœur de notre projet.\n",
+        "•  Si le projet échouait cela pouvait peser sur la décision sur notre passage en semestre supérieur."
+      ]
+    },
+    {
+      "subTitle": "Ce que j’ai accompli",
+      "subContent": [
+        "Sur ce projet j’ai pu faire de nombreuses choses : \n",
+        "•  Intégration de Signal R sur l’ensemble des fonctionnalités afin de pouvoir avoir de l’interaction dynamique sur le site.\n",
+        "•  Communication avec des API externes pour accéder à des réelles données venant de différents sites de voyages.\n",
+        "•  Conception du système de sondage et de notification pour pouvoir se décider et de proposer entre personnes et aussi d’être informer en temps réel sur les choix du groupe.\n",
+        "•  Ajout d’un gestionnaire de photo qui permet de partager les photos de son voyage\n",
+        "•  Prise en main d’Element UI afin de faire le design du site"
+      ]
+    },
+    {
+      "subTitle": "Les Acteurs",
+      "subContent": [
+        "Le projet visait toutes sortes de personne voulant partir en voyage en groupe. C’était un site tout public."
+      ]
+    },
+    {
+      "subTitle": "Résultat et avenir",
+      "subContent": [
+        "Ce projet nous aura pris 35 jours de travail par personne en sachant que l’on était 4 à faire ce projet.",
+        "Nous avons présenté ce projet à notre forum des projets informatique de notre école et nous somme arriver 4eme sur 30 projets."
+      ]
+    },
+    {
+      "subTitle": "Regard Critique",
+      "subContent": [
+        "Ce projet m’a permis de découvrir beaucoup d’aspect du web que je n’avais pas conscience avant comme les dépendances en web ou bien le cycle de vie d’une application. J’ai pu apprendre à utiliser la websocket Signal R mais aussi travailler avec des API externes."
       ]
     }
   ],
