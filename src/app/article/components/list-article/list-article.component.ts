@@ -10,14 +10,14 @@ import { ListArticle } from '../../models/article';
 })
 export class ListArticleComponent implements OnInit {
 
-  private articles: ListArticle[];
+  public articles: ListArticle;
 
   constructor(private activatedRoute: ActivatedRoute,private route: Router, private httpClient: HttpClient) { }
 
   async ngOnInit() {
     const urlSplit = this.route.url.split("/");
     const json = `assets/json/${urlSplit[urlSplit.length - 1]}.json`
-    this.articles = await this.httpClient.get<ListArticle[]>(json).toPromise();
+    this.articles = await this.httpClient.get<ListArticle>(json).toPromise();
   }
 
   public coverSkill(imageSrc: string): string {
