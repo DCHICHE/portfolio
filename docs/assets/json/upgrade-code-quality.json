@@ -1,0 +1,41 @@
+{
+  "mainTitle": "Améliorer la qualité du code",
+  "subTitle": "Améliorer la qualité du code",
+  "content": [
+    {
+      "subTitle": null,
+      "subContent": [
+        "Améliorer la qualité du code dans un environnement de développement est primordiale dans le cycle de vie d’une application."
+      ]
+    },
+    {
+      "subTitle": "L'héritage à travers les âges",
+      "subContent": [
+        "En entreprise il arrive très souvent que plusieurs développeurs travailler sur un même projet.",
+        "Chaque développeur a une responsabilité dans la lisibilité du code pour que les autres arrivent à comprendre ce qu’il a effectué.",
+        "Il faut savoir qu’il ne sera pas le(s) seul(s) à devoir développer sur ce même projet et que pour avoir une maintenabilité correcte du projet il faut avoir une maintenabilité du code.",
+        "Et cela passe souvent par des commentaires détaillant ce que fait le code, à son indentation ainsi qu’une simplification de celui-ci.\n",
+        "Je dis ça puisque à mon arrivée dans mon entreprise je me suis confronté à deux projets dont les développeurs n’étaient plus présents.",
+        "Dans l’un des projets, RedZone, j’ai dû corriger plusieurs bugs mais comme le code n’était pas du tout commenté et qu’il était pas du tout maintenu à jour j’ai pris perdu énormément de temps à régler ce problème.",
+        "Cela a été encore plus difficile vu que je ne pouvais poser aucune question vue que personne dans l’entreprise n’avait touché au projet et tous les anciens développeurs étaient partis.",
+        "Dans l’autre projet, Eco-Ecole cela a été pire car il fallait ajouter des fonctionnalités.",
+        "C’était le même cas pour RedZone au niveau du code à la différence que ce projet datait d’au moins 7 ans face à RedZone qui était plutôt jeune. Cela fut une vraie épreuve pour moi que j’ai quand même réussi à surmonter."
+      ]
+    },
+    {
+      "subTitle": "Ajustage de l'héritage",
+      "subContent": [
+        "Même si la qualité du code est primordiale, il faut savoir l’employer rigoureusement et ne pas écrire tout et n’importe quoi. ",
+        "Il est nécessaire d’avoir par exemple pour les commentaires un texte compréhensible et lisible pour tous. ",
+        "Et c’est un des points ou je dois m’améliorer car j’ai du mal à écrire en anglais mais je m’améliore pour ça. ",
+        "Mais ce n’est pas tout par manque de temps des fois il m’arrive de ne pas commenter le code et il faut que je prenne l’habitude d’en écrire systématiquement."
+      ]
+    }
+  ],
+  "linkedProject": [
+    {
+      "name": "Pick'N'Trip",
+      "redirect": "realization/pick-n-trip"
+    }
+  ]
+}

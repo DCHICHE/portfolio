@@ -133,6 +133,8 @@ MIT
 
 ng-zorro-antd/button
 
+ng-zorro-antd/card
+
 ng-zorro-antd/divider
 
 ng-zorro-antd/drawer

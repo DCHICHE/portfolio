@@ -1,0 +1,20 @@
+{
+  "name": "Mes Compétences Techniques",
+  "articles": [
+    {
+      "name": "Améliorer la qualité du code",
+      "redirect": "upgrade-code-quality",
+      "image": "skill-tech/upgrade-code-quality.jpg"
+    },
+    {
+      "name": "TEST",
+      "redirect": "test",
+      "image": "skill-soft/test.png"
+    },
+    {
+      "name": "TEST",
+      "redirect": "test",
+      "image": "skill-soft/test.png"
+    }
+  ]
+}
