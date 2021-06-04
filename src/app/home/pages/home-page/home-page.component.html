@@ -1,11 +1,7 @@
 <nz-layout>
-  <nz-header>
-    <ul nz-menu nzTheme="dark" nzMode="horizontal">
-      <li nz-menu-item [routerLink]="['/home']" routerLinkActive="active">Accueil</li>
-      <li nz-menu-item [routerLink]="['/skill']" routerLinkActive="active">Competences</li>
-      <li nz-menu-item [routerLink]="['/realization']" routerLinkActive="active">Réalisation</li>
-    </ul>
-  </nz-header>
+    <app-landing id="landing"></app-landing>
+    <app-navbar></app-navbar>
+    <!-- <app-profile id="profile"></app-profile> -->
   <nz-content>
       <router-outlet></router-outlet>
   </nz-content>

@@ -4,9 +4,11 @@ import { NzLayoutModule } from 'ng-zorro-antd/layout';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { HomeRoutingModule } from './home-routing.module';
 import { NgZorroAntdModule } from '../modules/ng-zorro-antd.module';
-import { ProfileComponent } from '../profile/profile.component';
 import { SkillsModule } from '../skills/skills.module';
 import { RealizationModule } from '../realization/realization.module';
+import { LandingComponent } from './components/landing/landing.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { ProfileComponent } from './components/profile/profile.component';
 
 @NgModule({
   imports: [
@@ -20,7 +22,10 @@ import { RealizationModule } from '../realization/realization.module';
   declarations: [
     HomePageComponent,
     ProfileComponent,
+    LandingComponent,
+    NavbarComponent,
   ],
-  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
+  exports: [LandingComponent, NavbarComponent]
 })
 export class HomeModule { }
