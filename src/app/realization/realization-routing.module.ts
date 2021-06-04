@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ArticleComponent } from '../article/components/article/article.component';
 import { ListArticleComponent } from '../article/components/list-article/list-article.component';
-import { RealizationComponent } from './components/realization/realization.component';
-
 
 const routes: Routes = [
   {
@@ -14,7 +13,7 @@ const routes: Routes = [
       },
       {
         path: ':skill',
-        component: RealizationComponent
+        component: ArticleComponent
       },
     ],
   }

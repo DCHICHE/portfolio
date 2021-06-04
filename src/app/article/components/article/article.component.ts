@@ -1,15 +1,15 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Skill } from '../../models/skills';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { Skill } from 'src/app/skills/models/skills';
 
 @Component({
-  selector: 'app-skill-soft',
-  templateUrl: './skill-soft.component.html',
-  styleUrls: ['./skill-soft.component.less']
+  selector: 'app-article',
+  templateUrl: './article.component.html',
+  styleUrls: ['./article.component.less']
 })
-export class SkillSoftComponent implements OnInit, OnDestroy {
+export class ArticleComponent implements OnInit {
 
   public skill: Skill;
   public skillName: string;
@@ -29,14 +29,15 @@ export class SkillSoftComponent implements OnInit, OnDestroy {
   }
 
   public getSubSkillContent(content: string[]): string {
-    return content.join(" ");
+    return content.join("");
+  }
+
+  public redirect(redirect: string) {
+    this.router.navigate([redirect]);
   }
 
   public ngOnDestroy(): void {
     this._subscription.unsubscribe()
   }
 
-  public redirect(redirect: string) {
-    this.router.navigate([redirect]);
-  }
 }

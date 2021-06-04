@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { SkillsComponent } from './pages/skills.component';
-import { SkillSoftComponent } from './components/skill-soft/skill-soft.component';
 import { ListArticleComponent } from '../article/components/list-article/list-article.component';
+import { ArticleComponent } from '../article/components/article/article.component';
 
 
 const routes: Routes = [
@@ -23,11 +23,11 @@ const routes: Routes = [
       },
       {
         path: 'skill-soft/:skill',
-        component: SkillSoftComponent
+        component: ArticleComponent
       },
       {
         path: 'skill-tech/:skill',
-        component: SkillSoftComponent
+        component: ArticleComponent
       },
     ],
   }

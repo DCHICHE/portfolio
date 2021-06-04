@@ -5,9 +5,10 @@ import { ListArticleComponent } from './components/list-article/list-article.com
 import { FormsModule } from '@angular/forms';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { ArticleComponent } from './components/article/article.component';
 
 @NgModule({
-  declarations: [ListArticleComponent],
+  declarations: [ListArticleComponent, ArticleComponent],
   imports: [
     CommonModule,
     RouterModule,
@@ -15,6 +16,7 @@ import { RouterModule } from '@angular/router';
   ],
   exports: [
     ListArticleComponent,
+    ArticleComponent,
   ]
   ,schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
