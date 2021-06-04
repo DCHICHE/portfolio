@@ -50,5 +50,10 @@
       ]
     }
   ],
-  "linkedProject": ["Pick'N'Trip"]
+  "linkedProject": [
+    {
+      "name": "Pick'N'Trip",
+      "redirect": "realization/pick-n-trip"
+    }
+  ]
 }

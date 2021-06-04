@@ -33,6 +33,9 @@
     }
   ],
   "linkedProject": [
-    "Pick'N'Trip"
+    {
+      "name": "Pick'N'Trip",
+      "redirect": "realization/pick-n-trip"
+    }
   ]
 }

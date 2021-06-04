@@ -13,7 +13,7 @@
 <h2>Projet lié à cette competence :</h2>
 <div *ngFor="let linkedProject of skill.linkedProject">
   <h3>
-    <a>{{linkedProject}}</a>
+    <a (click)="redirect(linkedProject.redirect)">{{linkedProject.name}}</a>
   </h3>
 </div>
 

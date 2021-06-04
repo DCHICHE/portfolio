@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Skill } from '../../models/skills';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -15,7 +15,7 @@ export class SkillSoftComponent implements OnInit, OnDestroy {
   public skillName: string;
   private _subscription: Subscription;
 
-  constructor(private httpClient: HttpClient, private route: ActivatedRoute) { }
+  constructor(private httpClient: HttpClient, private route: ActivatedRoute, private router: Router) { }
 
 
   async ngOnInit() {
@@ -34,5 +34,9 @@ export class SkillSoftComponent implements OnInit, OnDestroy {
 
   public ngOnDestroy(): void {
     this._subscription.unsubscribe()
+  }
+
+  public redirect(redirect: string) {
+    this.router.navigate([redirect]);
   }
 }
