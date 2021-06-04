@@ -7,14 +7,14 @@
       "image": "skill-soft/esprit-equipe.jpg"
     },
     {
-      "name": "TEST",
-      "redirect": "test",
-      "image": "skill-soft/test.png"
+      "name": "",
+      "redirect": null,
+      "image": "under_construction.jpg"
     },
     {
-      "name": "TEST",
-      "redirect": "test",
-      "image": "skill-soft/test.png"
+      "name": "",
+      "redirect": null,
+      "image": "under_construction.jpg"
     }
   ]
 }
