@@ -1,0 +1,20 @@
+{
+  "name": "Mes Réalisations",
+  "articles": [
+    {
+      "name": "Pick'N'Trip",
+      "redirect": "pick-n-trip",
+      "image": "realization/pick-n-trip.png"
+    },
+    {
+      "name": "TEST",
+      "redirect": "test",
+      "image": "skill-soft/test.png"
+    },
+    {
+      "name": "TEST",
+      "redirect": "test",
+      "image": "skill-soft/test.png"
+    }
+  ]
+}

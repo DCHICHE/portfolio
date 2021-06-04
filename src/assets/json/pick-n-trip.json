@@ -1,0 +1,62 @@
+{
+  "mainTitle": "Pick’N’Trip",
+  "subTitle": " Pick’N’Trip - Besoin de vacances ? Just Pick’N’Trip !",
+  "content": [
+    {
+      "subTitle": "Le Projet",
+      "subContent": [
+        "Pick’N’Trip est un gestionnaire de voyage.",
+        "Il permet à un groupe de personnes d’organiser leurs voyages en amont.",
+        "Vous pouvez débattre pour choisir une destination, choisir un moyen de transport vers la destination, ainsi que les logements.",
+        "Pick’N’Trip vous aide aussi pendant vos voyages, ajoutez vos dépenses et gérer les dettes entre les membres du groupe !"
+      ]
+    },
+    {
+      "subTitle": "Les Objectifs et Contexte",
+      "subContent": [
+        "Ce projet devait être réaliser durant le cours de notre semestre 4 afin de nous apprendre à",
+        "concevoir une SPA (Single Page Application) et de nous perfectionnez sur nos compétences techniques.",
+        "On avait l’objectif de réaliser un gestionnaire de voyage facilement utilisable par n’importe quel public."
+      ]
+    },
+    {
+      "subTitle": "Enjeu et Risques",
+      "subContent": [
+        "L’enjeu de ce projet était le passage au semestre supérieur.Il y avait 2 risques avec ce projet :\n",
+        "•  La communication avec les API externes non payantes qui allaient être le cœur de notre projet.\n",
+        "•  Si le projet échouait cela pouvait peser sur la décision sur notre passage en semestre supérieur."
+      ]
+    },
+    {
+      "subTitle": "Ce que j’ai accompli",
+      "subContent": [
+        "Sur ce projet j’ai pu faire de nombreuses choses : \n",
+        "•  Intégration de Signal R sur l’ensemble des fonctionnalités afin de pouvoir avoir de l’interaction dynamique sur le site.\n",
+        "•  Communication avec des API externes pour accéder à des réelles données venant de différents sites de voyages.\n",
+        "•  Conception du système de sondage et de notification pour pouvoir se décider et de proposer entre personnes et aussi d’être informer en temps réel sur les choix du groupe.\n",
+        "•  Ajout d’un gestionnaire de photo qui permet de partager les photos de son voyage\n",
+        "•  Prise en main d’Element UI afin de faire le design du site"
+      ]
+    },
+    {
+      "subTitle": "Les Acteurs",
+      "subContent": [
+        "Le projet visait toutes sortes de personne voulant partir en voyage en groupe. C’était un site tout public."
+      ]
+    },
+    {
+      "subTitle": "Résultat et avenir",
+      "subContent": [
+        "Ce projet nous aura pris 35 jours de travail par personne en sachant que l’on était 4 à faire ce projet.",
+        "Nous avons présenté ce projet à notre forum des projets informatique de notre école et nous somme arriver 4eme sur 30 projets."
+      ]
+    },
+    {
+      "subTitle": "Regard Critique",
+      "subContent": [
+        "Ce projet m’a permis de découvrir beaucoup d’aspect du web que je n’avais pas conscience avant comme les dépendances en web ou bien le cycle de vie d’une application. J’ai pu apprendre à utiliser la websocket Signal R mais aussi travailler avec des API externes."
+      ]
+    }
+  ],
+  "linkedProject": ["Pick'N'Trip"]
+}
