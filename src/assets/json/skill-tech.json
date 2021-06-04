@@ -7,14 +7,14 @@
       "image": "skill-tech/upgrade-code-quality.jpg"
     },
     {
-      "name": "TEST",
-      "redirect": "test",
-      "image": "skill-soft/test.png"
+      "name": "",
+      "redirect": null,
+      "image": "under_construction.jpg"
     },
     {
-      "name": "TEST",
-      "redirect": "test",
-      "image": "skill-soft/test.png"
+      "name": "",
+      "redirect": null,
+      "image": "under_construction.jpg"
     }
   ]
 }
